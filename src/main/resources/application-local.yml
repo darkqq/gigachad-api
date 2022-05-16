@@ -1,0 +1,16 @@
+
+
+hyperledger:
+  url:
+    base: grpc://3.66.227.153:7054
+
+path:
+  internal:
+    api:
+      get-user-data: /api/info
+      get-company-data: /api/company
+      mint: /api/mint
+      enroll: /api/enroll
+      make-transfer: /api/transfer
+      register-company: /api/main/token
+      base: http://localhost:8084
